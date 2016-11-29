@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta lang="en">
+        <meta charset="utf-8">
+        <title>info</title>
+        <link href='//fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700' rel='stylesheet' type='text/css'>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        
+        <style>
+            body {
+                font-family: 'Roboto', Calibri, sans-serif; 
+                background-color: #f5f5f5;
+            }
+            header {
+                margin: 0;
+                padding: 0;
+                height: 100px;
+                background-color:  #009688;
+                color: #fff; 
+                border-top: 10px solid #00796b; 
+            }
+            header h1 {
+                margin: 0;
+                padding-left: 15px;
+                text-align: center;
+                font-weight: 300; 
+                line-height: 100px;
+            }
+            #navbar {
+                /* Uncomment when the upper links are added: */
+                /*margin-top: -21px;*/
+                padding: 0;
+                height: 30px;
+                background-color: #4db6ac;
+                color: #fff;
+                box-shadow:0 2px 3px -2px #616161; 
+            }
+            #navbar-ul {
+
+            }
+            .navbar-ul-li {
+                margin: 0;
+                padding: 0 0 0 20px;
+                display: inline;
+                line-height: 30px;
+            }
+            .navbar-ul-li a {
+                color: #fff;
+                transition: color 0.5s ease;
+                text-decoration: none;
+            }
+            .navbar-ul-li a:hover {
+                color: #004d40; 
+            }
+            article {
+                margin: 20px auto 0 auto; 
+                padding: 15px; 
+                width: 90%;
+                background-color: #e0f2f1; 
+                border-bottom: 5px solid #00796b; 
+            }
+            .article-title {
+                margin: 0; 
+                padding: auto;
+                font-weight: 300;
+                font-size: 1.6em; 
+                cursor: pointer; 
+            }
+            .article-body {
+                line-height: 1.5em; 
+                font-size: 0.905em;
+            }
+            article ul {
+                line-height: 1.5em;
+                font-size: 0.905em;
+                list-style: square;
+            }
+            article div {
+                display: none; 
+            }
+            .center-bold {
+                font-weight: bold;
+            }
+            footer {
+                margin: 20px 0 0 0; 
+                padding: 0;
+                background-color:  #009688;
+                color: #fff;
+                border-top: 5px solid #00796b; 
+                box-shadow:0 2px 3px -2px #616161;
+            }
+            footer p {
+                margin: 0 0 0 0;
+                padding: 10px;
+                font-size: 0.9em;
+            }
+            footer p a {
+                color: #fff; 
+                transition: color 0.5s ease;
+                text-decoration: none; 
+            }
+            footer p a:hover {
+                color: #004d40; 
+            }
+        </style>
+        
+        <script>
+            //Article expansion:  
+            /*$(document).ready(function(){
+                $('#motifs-title').click(function(){
+                    $('#motifs-article').slideToggle(500);
+                });
+                $('#sonata-title').click(function(){
+                    $('#sonata-form-article').slideToggle(500);
+                });
+                $('#movements-title').click(function(){
+                    $('#movements-article').slideToggle(500);
+                });
+                $('#the-orch-title').click(function(){
+                    $('#the-orchestra-article').slideToggle(500);
+                });
+                $('#symphony-title').click(function(){
+                    $('#the-symphony-article').slideToggle(500);
+                });
+            });*/
+            $(document).ready(function(){
+                $(".article-title").each(function(){
+                    $(this).click(function(){
+                    $(this).siblings(".article-content").slideToggle(500);
+                    });
+                });
+            });
+        </script>
+        
+    </head>
+    <body>
+    
+        <header>
+            <h1 id="top-of-page">G A M E S</h1>
+        </header>
+        
+        <nav id="navbar">
+            <!--<ul id="navbar-ul">
+                <li class="navbar-ul-li"><a href="#">Contents</a></li>
+                <li class="navbar-ul-li"><a href="#">Featured Article</a></li>
+                <li class="navbar-ul-li"><a href="#">Credits</a></li>
+            </ul>-->
+        </nav>
+        
+        <article>
+            <h2 class="article-title">Upcoming Games</h2>
+            <div id="phrases" class="article-content">
+                <p class="article-body">
+                <br><br>
+The Dale Chronichles II: Amradell
+<br><br>
+Sail to the Kingdom of Amradell, a province in the Empire of Dale. You, Tarus Medir, was sent for by the new king of the land; Cidius Casus. Fight for your honor!
+                <br><br>
+
+                <br><br>
+
+</p>
+            </div>
+        </article>
+        
+        <article>
+            <h2 class="article-title">Demos</h2>
+            <div id="suites-in-music" class="article-content">
+                <p class="article-body">MERIDIA
+                <br><br>
+                https://www.khanacademy.org/computer-programming/the-dugeon-game/5816985194463232  
+                <br><br>
+
+
+                <br><br>
+Colonial Warfare II
+                <br><br>
+                https://www.khanacademy.org/computer-programming/colonial-warfare/5257133551
+                <br><br><br><br>
+                VidCity 2000 BETA
+                <br><br>
+                https://www.khanacademy.org/computer-programming/vidcity-demo/6393790478548992
+                <br><br><br><br>
+                VidCity
+                <br><br>
+                https://www.khanacademy.org/computer-programming/vidcity/4708398783135744
+</p>
+            </div>
+        </article>
+        
+        <article>
+            <h2 class="article-title">3D Games</h2>
+            <div id="defintions-of-classical-music-article" class="article-content">
+                <p class="article-body">
+                <br><br>
+Vid City 2000 -------------- (COMING 2017)
+<br><br>
+The Sequel to VidCity for PC.......Be mayor of a prosperous city in a full 3D World! The Game willcome with 10 Scenarios, 3D Engine, Utility Systems, Commercial Districts, Residential Districts, Industrial Districts, and so on...   
+</p>
+            </div>
+        </article>
+        
+        <article>
+            <h2 class="article-title" id="motifs-title">Strategy</h2>
+            <div id="motifs-article" class="article-content">
+                <p class="article-body"></p>
+            </div>
+        </article>
+        
+        <article>
+            <h2 class="article-title" id="movements-title">City-Build</h2>
+            <div id="movements-article" class="article-content">
+                <p class="article-body"></p>
+            </div>
+        </article>
+        
+        <article>
+            <h2 class="article-title" id="the-orch-title">Simulators</h2>
+            <div id="the-orchestra-article" class="article-content">
+                <p class="article-body">
+                <br><br>
+                <strong>List of Great Orchestras: </strong>
+                </p>
+                <ul id="orch-list">
+                    <li>Berlin Philharmonic</li>
+                    <li>London Symphony</li>
+                    <li>Vienna Philharmonic</li>
+                    <li>New York Philharmonic</li>
+                    <li>Boston Symphony</li>
+                    <li>Royal Concertgebouw Orchestra</li>
+                    <li>Philadelphia Orchestra</li>
+                    <li>Chicago Symphony</li>
+                    <li>Cleveland Orchestra</li>
+                </ul>
+            </div>
+        </article>
+        
+      
+
+           
+    
+        
+    </body>
+</html>
